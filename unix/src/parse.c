@@ -125,7 +125,7 @@ ParseClient parseInitializeWithServerURL(
         const char *clientKey,
         const char *serverURL)
 {
-    parseSetLogLevel(PARSE_LOG_WARN);
+    parseSetLogLevel(PARSE_LOG_INFO);
 
     ParseClientInternal *client = calloc(1, sizeof(ParseClientInternal));
     if (client == NULL) {
